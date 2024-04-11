@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #7d63b8; /* Purple */
-    color: #ffffff; /* White */
+    color: #000; /* Black */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4d4d4d; /* Black */
-    color: #ffffff; /* White */
+    background-color: #ffffff; /* White */
+    color: #000; /* Black */
     text-align: center;
     padding: 20px;
 }
@@ -22,7 +22,6 @@ section {
     margin: 20px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -36,12 +35,12 @@ table {
 }
 
 th, td {
-    border: 1px solid #cccccc; /* Silver */
+    border: 1px solid #000; /* Black */
     padding: 8px;
 }
 
 th {
-    background-color: #cccccc; /* Silver */
+    background-color: #f2f2f2; /* Silver */
 }
 
 a {
@@ -55,8 +54,8 @@ img {
 }
 
 footer {
-    background-color: #4d4d4d; /* Black */
-    color: #ffffff; /* White */
+    background-color: #ffffff; /* White */
+    color: #000; /* Black */
     text-align: center;
     padding: 20px;
 }
