@@ -3,62 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunwoo Lee - Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sunwoo Lee</title>
+    <style>
+        body {
+            background-color: #FFB6C1; /* Light pink */
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .bear {
+            font-size: 48px;
+        } 
+        
+        .IMG-1 {
+            width: 300px;
+        } 
+        
+        .IMG-2 {
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Sunwoo Lee</h1>
+        <h1><span class="bear">🐻</span> Sunwoo Lee <span class="bear">🐻</span></h1>
     </header>
-
-    <section id="about">
+    
+    <section>
         <h2>About Me</h2>
-        <p>I am currently studying Software Engineering program at Oakland Community College. I work as a pediatric emergency department nurse while studying as a student. I am currently taking CIS 1200, CIS 1300, and CIS 1420.</p>
+        <p>I am a Korean American student currently studying Software Engineering. I am a student and also a full-time nurse that works for a pediatric emergency department at a local hospital. I was intrigued by the evolving technology and advancement which made me want to learn more about it. I am currently taking Intro to Database Systems, Networking Concepts, and HTML5 Programming class.</p>
+        <p>Here is a link to the course HTML5 Programming web page: <a href="https://oaklandcc.desire2learn.com/d2l/home/181755">HTML5 Programming</a></p>
     </section>
-
-    <section id="class-info">
-        <h2>Class Information</h2>
+    
+    <section>
+        <h2>My Interests</h2>
+        <h3>Sports:</h3>
+        <ul>
+            <li>Figure Skating</li>
+            <li>Swimming</li>
+            <li>Tennis</li>
+        </ul>
+        <h3>Favorite Movie:</h3>
+        <p>The Sound of Music</p>
+        <h3>Favorite Book:</h3>
+        <p>The Bible</p>
+        <p>Here is a link to the online library where I study the Bible while reading it: <a href="https://wol.jw.org/en/wol/binav/r1/lp-e">Online Bible Library</a></p>
+    </section>
+    
+    <section>
+        <h2>Images</h2>
+        <img class="IMG-1" src=“index.html/IMG_3272.heic" alt="Personal Picture 1">
+        <img class="IMG-2" src=“index.html/IMG2.heic" alt="Personal Picture 2">
+    </section>
+    
+    <section>
+        <h2>Course End Dates</h2>
         <table>
             <tr>
-                <th>Class</th>
-                <th>Class Name</th>
+                <th>Course</th>
                 <th>End Date</th>
             </tr>
             <tr>
-                <td>CIS 1200</td>
                 <td>Intro to Database Systems</td>
                 <td>4/23/24</td>
             </tr>
             <tr>
-                <td>CIS 1300</td>
                 <td>Networking Concepts</td>
                 <td>4/24/24</td>
             </tr>
             <tr>
-                <td>CIS 1420</td>
                 <td>HTML5 Programming</td>
                 <td>4/29/24</td>
             </tr>
         </table>
-        <p><a href="https://oaklandcc.desire2learn.com/d2l/home/181755">Link to my homepage for CIS 1420</a></p>
     </section>
+</body>
+</html>
 
-    <section id="fun-fact">
-        <h2>Fun Fact</h2>
-        <p>My favorite sports are figure skating, track and field, and swimming. I played these sports in high school.</p>
-    </section>
-
-    <section id="favorites">
-        <h2>Favorites</h2>
-        <p>My favorite movie is <em>The Sound of Music</em>.</p>
-        <p>My favorite book is <em>The Bible</em>. Here is a <a href="https://wol.jw.org/en/wol/binav/r1/lp-e">link to the online library website</a> that I use to study when I read my Bible.</p>
-    </section>
-
-    <section id="pictures">
-        <h2>Personal Pictures</h2>
-        <img src="IMG1.jpeg" alt="Sunwoo Lee Picture 1">
-        <img src="IMG2.jpeg" alt="Sunwoo Lee Picture 2">
-    </section>
 
     <footer>
         <p>&copy; 2024 Sunwoo Lee. All rights reserved.</p>
